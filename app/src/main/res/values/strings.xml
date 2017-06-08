@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Menu -->
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="favorites">Favorites</string>
+    <string name="most_popular_toast">Sorting by Most Popular!</string>
+    <string name="top_rated_toast">Sorting by Top Rated!</string>
+    <string name="favorites_toast">Displaying Favorites!</string>
+
+    <!-- Connectivity Issues -->
+    <string name="connection_error">Unable to connect to the internet.\nPlease check your connection! </string>
+    <string name="server_error">The server could not be found.\nPlease try again later.</string>
+    <string name="parsing_error">There was an error with our data.\nPlease try again later.</string>
+
+    <!-- Movie Details -->
+    <string name="trailers_header">Trailers:</string>
+    <string name="reviews_header">Reviews:</string>
+    <string name="reviewed_by">Reviewed by</string>
+
+    <!-- Favorites -->
+    <string name="favorite_added">added to favorites!</string>
+    <string name="favorite_removed">removed from favorites!</string>
+    <string name="no_favorites">You favorites list is empty!</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_add_favorite">Button: Add favorite.</string>
+
+    <!-- Displayed with runtime on details screen, e.g. 129min -->
+    <string name="runtime_minutes">min</string>
+
+    <!-- Dual Pane Welcome Splash -->
+    <string name="welcome_splash">Welcome to\nPopular Movies!</string>
+
+    <!-- Shared Preferences -->
+    <string name="pref_sort_order_key" translatable="false">sort-order-key</string>
+    <string name="pref_startup_check_key" translatable="false">startup-check-key</string>
+    <string name="pref_tablet_portrait_back_press_key" translatable="false">tablet-portrait-back-press-key</string>
+
+    <!-- Poster size, determined by device type -->
+    <string name="poster_width" translatable="false">w185/</string>
+</resources>

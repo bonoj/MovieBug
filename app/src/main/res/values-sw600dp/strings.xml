@@ -1,0 +1,4 @@
+<resources>
+    <!-- Poster size, determined by device type -->
+    <string name="poster_width" translatable="false">w500/</string>
+</resources>
