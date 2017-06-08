@@ -14,3 +14,5 @@ Selecting a movie poster launches the **MovieDetailActivity** which loads the **
 The following line must be added to your gradle.properties file:
 
 `API_KEY="insert-your-api-key-here"`
+
+You may obtain an API key at https://developers.themoviedb.org/3/getting-started
