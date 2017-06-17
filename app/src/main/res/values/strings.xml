@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Popular Movies</string>
+    <string name="app_name">Movie Bug</string>
 
     <!-- Menu -->
     <string name="most_popular">Most Popular</string>
@@ -31,7 +31,7 @@
     <string name="runtime_minutes">min</string>
 
     <!-- Dual Pane Welcome Splash -->
-    <string name="welcome_splash">Welcome to\nPopular Movies!</string>
+    <string name="welcome_splash">Welcome to\nMovie Bug!</string>
 
     <!-- Shared Preferences -->
     <string name="pref_sort_order_key" translatable="false">sort-order-key</string>
