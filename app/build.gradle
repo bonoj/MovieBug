@@ -3,16 +3,16 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
-            keyAlias 'movieBugKey'
-            keyPassword 'mbkJB2nd!-k'
-            storeFile file('C:/Users/John/Documents/Android/Keystores/moviebugkeystore.jks')
-            storePassword 'mbkJB2nd!'
+            keyAlias 'INSERT-YOUR-KEY-HERE'
+            keyPassword 'INSERT-YOUR-PASSWORD-HERE'
+            storeFile file('INSERT-YOUR-PATH-HERE')
+            storePassword 'INSERT-YOUR-PASSWORD-HERE'
         }
     }
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.hk47.popularmoviesstageone"
+        applicationId "me.bonoj.moviebug"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
