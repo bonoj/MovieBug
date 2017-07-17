@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hk47.popularmoviesstageone">
+    package="me.bonoj.moviebug">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MovieListActivity"
+        <activity android:name="me.bonoj.moviebug.ui.MovieListActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,18 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.MovieDetailActivity"
+        <activity android:name="me.bonoj.moviebug.ui.MovieDetailActivity"
             android:label=""
-            android:parentActivityName=".ui.MovieListActivity">
+            android:parentActivityName="me.bonoj.moviebug.ui.MovieListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.MovieListActivity" />
+                android:value="me.bonoj.moviebug.ui.MovieListActivity" />
         </activity>
 
-        <!-- Content Provider registered here -->
+        <!-- Content Provider registration -->
         <provider
-            android:authorities="com.hk47.popularmoviesstageone"
-            android:name="com.hk47.popularmoviesstageone.data.MovieContentProvider"
+            android:authorities="me.bonoj.moviebug"
+            android:name="me.bonoj.moviebug.data.MovieContentProvider"
             android:exported="false" />
 
     </application>

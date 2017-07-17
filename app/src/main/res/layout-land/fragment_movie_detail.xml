@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hk47.popularmoviesstageone.ui.MovieDetailActivity">
+    tools:context="com.hk47.popularmoviesstageone.me.hk47.popularmoviesstageone.ui.MovieDetailActivity">
 
     <TextView
         android:id="@+id/detail_title"

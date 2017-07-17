@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <fragment class="com.hk47.popularmoviesstageone.ui.MovieListFragment"
+    <fragment class="me.bonoj.moviebug.ui.MovieListFragment"
         android:id="@+id/dual_list"
         android:layout_weight="1"
         android:layout_height="match_parent"

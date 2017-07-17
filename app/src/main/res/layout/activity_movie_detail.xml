@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/detail_activity"
-    class="com.hk47.popularmoviesstageone.ui.MovieDetailFragment"
+    class="me.bonoj.moviebug.ui.MovieDetailFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
