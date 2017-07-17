@@ -1,4 +1,4 @@
-# PopularMovies
+# MovieBug
 An Android mobile movie database featuring an endlessly scrolling list of movies, providing rating, runtime, trailers, and reviews.
 
 #### Endless Scroll
